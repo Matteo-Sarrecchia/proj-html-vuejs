@@ -73,8 +73,7 @@ export default {
         width: 80%;
 
         .col {
-            width: 20%;
-            border: 1px solid black;
+            width: 25%;
             min-height: 50px;
             display: flex;
             flex-direction: column;
