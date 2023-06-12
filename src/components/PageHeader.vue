@@ -56,7 +56,22 @@ export default {
 
         <!-- jumbotron -->
         <div class="jumbotron">
-            
+            <h1>Learn At Your Own Pace!</h1>
+            <h3>Get teamed up with people of the same will.</h3>
+            <div>
+                <input type="button" value="Get started for free">
+            </div>
+            <div class="container">
+                <div id="left">
+                    <img src="../../public/images/home-6-hero-left-person.png" alt="">
+                </div>
+                <div id="centre">
+                    <img src="../../public/images/home-6-hero-poster-final.jpg" alt="">
+                </div>
+                <div id="right">
+
+                </div>
+            </div>
         </div>
     </header>
 </template>
@@ -67,7 +82,7 @@ export default {
 header {
     border: 1px solid black;
     min-height: 100px;
-    background-color: blue;
+    background: linear-gradient(180deg, #080cff 83%, #fff 17%);
 
     // menu navigazione
     nav {
@@ -125,9 +140,58 @@ header {
     // jumbotron
     .jumbotron {
         width: 80%;
-        margin: 0 auto;
-        border: 1px solid black;
+        margin: 50px auto;
         min-height: 100px;
+        color: white;
+        text-align: center;
+
+        h1,
+        h3,
+        input {
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            color: rgba($color: #ffffff, $alpha: 0.6)
+        }
+
+        input {
+            background-color: #20ad96;
+            padding: 10px 30px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .container {
+            min-height: 100px;
+            display: flex;
+
+            img {
+                width: 100%;
+                display: block;
+            }
+
+            #left,
+            #right {
+                width: 25%;
+            }
+
+            #left img {
+                margin-left: 40px;
+            }
+
+            #right {
+                background-image: url(../../public/images/home-6-hero-right-person-195x300.png);
+                background-size: cover;
+                margin-top: 115px;
+            }
+
+            #centre {
+                width: 50%;
+            }
+        }
+
     }
 }
 </style>
