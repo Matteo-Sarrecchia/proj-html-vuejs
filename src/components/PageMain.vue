@@ -1,12 +1,18 @@
 <script>
+import FounderCeoSection from './FounderCeoSection.vue'
+
+
 export default {
-    name: "PageMain"
+    name: "PageMain",
+    components: {
+        FounderCeoSection
+    }
 }
 </script>
 
 <template>
     <main>
-        main
+        <FounderCeoSection />
     </main>
 </template>
 
