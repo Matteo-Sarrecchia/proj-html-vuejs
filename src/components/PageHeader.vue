@@ -63,10 +63,10 @@ export default {
             </div>
             <div class="container">
                 <div id="left">
-                    <img src="../../public/images/home-6-hero-left-person.png" alt="">
+                    <img src="/images/home-6-hero-left-person.png" alt="">
                 </div>
                 <div id="centre">
-                    <img src="../../public/images/home-6-hero-poster-final.jpg" alt="">
+                    <img src="/images/home-6-hero-poster-final.jpg" alt="">
                 </div>
                 <div id="right">
 
@@ -82,12 +82,12 @@ export default {
 header {
     border: 1px solid black;
     min-height: 100px;
-    background: linear-gradient(180deg, #080cff 83%, #fff 17%);
+    background: linear-gradient(180deg, #3f3a64 83%, #fff 17%);
 
     // menu navigazione
     nav {
-        width: 80%;
-        margin: 10px auto;
+        width: 70%;
+        margin: 20px auto;
         height: 50px;
         display: flex;
         justify-content: space-between;
@@ -101,7 +101,7 @@ header {
         }
 
         #menu-nav {
-            width: 60%;
+            width: 65%;
             display: flex;
             align-items: center;
 
@@ -130,7 +130,7 @@ header {
                     }
 
                     i {
-                        margin-right: 10px;
+                        margin: 10px;
                     }
                 }
             }
@@ -161,6 +161,11 @@ header {
             color: white;
             border: none;
             border-radius: 5px;
+
+            &:hover {
+                background-color: white;
+                color: lightskyblue;
+            }
         }
 
         .container {
