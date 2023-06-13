@@ -1,6 +1,8 @@
 <script>
 import FounderCeoSection from './FounderCeoSection.vue'
 import ServicesSection from './ServicesSection.vue'
+import CoursesSection from './CoursesSection.vue'
+
 
 
 
@@ -8,7 +10,8 @@ export default {
     name: "PageMain",
     components: {
         FounderCeoSection,
-        ServicesSection
+        ServicesSection,
+        CoursesSection
     }
 }
 </script>
@@ -17,7 +20,7 @@ export default {
     <main>
         <FounderCeoSection />
         <ServicesSection />
-
+        <CoursesSection />
     </main>
 </template>
 

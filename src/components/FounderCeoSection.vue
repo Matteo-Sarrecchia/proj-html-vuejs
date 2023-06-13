@@ -86,7 +86,7 @@ export default {
 
             .text-number {
                 font-size: 40px;
-                color: green;
+                color: #20ad96;
                 font-weight: bolder;
             }
 
