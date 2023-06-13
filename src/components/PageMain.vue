@@ -3,6 +3,7 @@ import FounderCeoSection from './FounderCeoSection.vue'
 import ServicesSection from './ServicesSection.vue'
 import CoursesSection from './CoursesSection.vue'
 import TalkAboutSection from './TalkAboutSection.vue'
+import BlogSection from './BlogSection.vue'
 
 export default {
     name: "PageMain",
@@ -10,7 +11,8 @@ export default {
         FounderCeoSection,
         ServicesSection,
         CoursesSection,
-        TalkAboutSection
+        TalkAboutSection,
+        BlogSection
     }
 }
 </script>
@@ -21,6 +23,7 @@ export default {
         <ServicesSection />
         <CoursesSection />
         <TalkAboutSection />
+        <BlogSection />
     </main>
 </template>
 
