@@ -2,16 +2,15 @@
 import FounderCeoSection from './FounderCeoSection.vue'
 import ServicesSection from './ServicesSection.vue'
 import CoursesSection from './CoursesSection.vue'
-
-
-
+import TalkAboutSection from './TalkAboutSection.vue'
 
 export default {
     name: "PageMain",
     components: {
         FounderCeoSection,
         ServicesSection,
-        CoursesSection
+        CoursesSection,
+        TalkAboutSection
     }
 }
 </script>
@@ -21,6 +20,7 @@ export default {
         <FounderCeoSection />
         <ServicesSection />
         <CoursesSection />
+        <TalkAboutSection />
     </main>
 </template>
 
