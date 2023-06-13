@@ -4,6 +4,8 @@ import ServicesSection from './ServicesSection.vue'
 import CoursesSection from './CoursesSection.vue'
 import TalkAboutSection from './TalkAboutSection.vue'
 import BlogSection from './BlogSection.vue'
+import HelpYouSection from './HelpYouSection.vue'
+
 
 export default {
     name: "PageMain",
@@ -12,7 +14,8 @@ export default {
         ServicesSection,
         CoursesSection,
         TalkAboutSection,
-        BlogSection
+        BlogSection,
+        HelpYouSection
     }
 }
 </script>
@@ -24,6 +27,7 @@ export default {
         <CoursesSection />
         <TalkAboutSection />
         <BlogSection />
+        <HelpYouSection />
     </main>
 </template>
 
