@@ -45,14 +45,12 @@ export default {
 @use "../styles/generals.scss" as *;
 
 .founderCeo {
-    border: 1px solid rgb(249, 7, 7);
     min-height: 50px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    // default background
-    background-color: lightseagreen;
+    background-color: white;
 
     h2,
     div {
@@ -61,8 +59,8 @@ export default {
     }
 
     h2 {
-        margin: 30px;
-        margin-top: 50px;
+        margin-top: 150px;
+        margin-bottom: 30px;
         font-size: 35px;
     }
 

@@ -34,9 +34,10 @@ export default {
                             <i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i>
                         </a>
                     </li>
-                    <li><a href="">Shop
+                    <li>
+                        <a href="">Shop
                             <i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i>
-                            <i class="fa-regular fa-cart-shopping" style="color: #ffffff;"></i>
+                            <i class="fa-solid fa-cart-shopping shop" style="color: #ffffff;"></i>
                         </a>
                     </li>
                     <li>
@@ -80,17 +81,19 @@ export default {
 @use "../styles/generals.scss" as *;
 
 header {
-    border: 1px solid black;
     min-height: 100px;
-    background: linear-gradient(180deg, #3f3a64 83%, #fff 17%);
+    background-color: #303060;
+    background-image: url(../../public/images/header-background.png);
+    // background: linear-gradient(180deg, #3f3a64 83%, #fff 17%);
 
     // menu navigazione
     nav {
         width: 70%;
-        margin: 20px auto;
+        margin: 0 auto;
         height: 50px;
         display: flex;
         justify-content: space-between;
+        padding-top: 30px;
 
         #logo {
             width: 20%;
@@ -114,11 +117,19 @@ header {
                 li {
                     display: flex;
                     align-items: center;
+
+                    &:hover {
+                        border-bottom: 1px solid white;
+                    }
                 }
 
                 a {
                     color: white;
                     text-decoration: none;
+
+                    .shop{
+                        margin-left: 5px;
+                    }
                 }
 
                 #search {
@@ -171,26 +182,28 @@ header {
         .container {
             min-height: 100px;
             display: flex;
+            margin-bottom: -110px;
 
             img {
                 width: 100%;
                 display: block;
             }
 
-            #left,
-            #right {
+            #left {
                 width: 25%;
+            }
+
+            #right {
+                width: 20%;
+                background-image: url(../../public/images/home-6-hero-right-person-195x300.png);
+                background-size: cover;
+                margin-top: 170px;
             }
 
             #left img {
                 margin-left: 40px;
             }
 
-            #right {
-                background-image: url(../../public/images/home-6-hero-right-person-195x300.png);
-                background-size: cover;
-                margin-top: 115px;
-            }
 
             #centre {
                 width: 50%;

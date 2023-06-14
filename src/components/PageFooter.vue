@@ -91,6 +91,11 @@ export default {
         <div id="footer-text">
             © 2020 Maxcoach. All Rights Reserved
         </div>
+        <div id="arrow-link">
+            <a href="PageHeader">
+                <i class="fa-solid fa-circle-arrow-up" style="color: #20ad96;"></i>
+            </a>
+        </div>
     </footer>
 </template>
 
@@ -117,11 +122,11 @@ footer {
 
                     a {
                         text-decoration: none;
-                        color: rgba($color: #000000, $alpha: 0.6);
+                        color: $primary-color;
 
                         &:hover {
                             text-decoration: underline;
-                            color: blue;
+                            color: rgb(0, 0, 0);
                         }
 
 
@@ -155,8 +160,19 @@ footer {
 
     #footer-text {
         text-align: center;
-        margin-bottom: 50px;
-        color: rgba($color: #000000, $alpha: 0.6);
+        margin-bottom: 30px;
+        color: $primary-color;
+    }
+
+
+    #arrow-link {
+        text-align: end;
+
+        a {
+            padding: 30px 60px;
+            text-align: end;
+            font-size: 30px;
+        }
     }
 }
 </style>

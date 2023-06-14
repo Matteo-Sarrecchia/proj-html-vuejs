@@ -93,7 +93,6 @@ export default {
 @use "../styles/generals.scss" as *;
 
 .services {
-    border: 1px solid black;
     min-height: 300px;
     width: 80%;
     margin: 0 auto;

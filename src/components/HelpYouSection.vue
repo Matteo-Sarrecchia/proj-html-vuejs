@@ -74,13 +74,12 @@ export default {
 .help {
     min-height: 100px;
     padding: 50px 0;
-    background: rgb(182, 179, 179);
     background: linear-gradient(0deg, rgba(182, 179, 179, 1) 0%, rgba(255, 255, 255, 1) 80%);
 
     h3 {
         font-size: 20px;
         margin: 20px 0;
-        color: rgba($color: #000000, $alpha: 0.6);
+        color: $primary-color;
         text-align: center;
     }
 
@@ -116,7 +115,7 @@ export default {
             }
 
             .text {
-                color: rgba($color: #000000, $alpha: 0.6);
+                color: $primary-color;
             }
         }
 

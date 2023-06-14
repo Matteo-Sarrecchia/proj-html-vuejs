@@ -110,7 +110,7 @@ export default {
     h3 {
         font-size: 20px;
         margin: 20px 0;
-        color: rgba($color: #000000, $alpha: 0.6);
+        color: $primary-color;
     }
 
     h1 {
@@ -134,7 +134,13 @@ export default {
             width: 50%;
             min-height: 50px;
             display: flex;
-            margin: 20px 0;
+            padding: 20px;
+
+            &:hover {
+                border: 2px solid black;
+                border-radius: 15px;
+                background-color: antiquewhite;
+            }
         }
 
         .card-img {
@@ -170,10 +176,10 @@ export default {
 
             span {
                 margin-right: 20px;
-                color: rgba($color: #000000, $alpha: 0.6);
+                color: $primary-color;
 
                 i {
-                    color: rgba($color: #000000, $alpha: 0.6);
+                    color: $primary-color;
                 }
             }
         }

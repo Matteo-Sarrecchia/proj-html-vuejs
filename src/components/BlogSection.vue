@@ -78,7 +78,7 @@ export default {
     h3 {
         font-size: 20px;
         margin: 20px 0;
-        color: rgba($color: #000000, $alpha: 0.6);
+        color: $primary-color;
         text-align: center;
     }
 
@@ -120,14 +120,13 @@ export default {
 
             .artist {
                 font-weight: bold;
-                color: rgba($color: #000000, $alpha: 0.5);
+                color: $primary-color;
             }
 
             span {
                 margin-right: 20px;
-                color: rgba($color: #000000, $alpha: 0.5);
+                color: $primary-color;
             }
         }
     }
-}
-</style>
+}</style>
