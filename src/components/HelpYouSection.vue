@@ -105,6 +105,10 @@ export default {
             margin: 20px;
             min-height: 100px;
 
+            &:hover {
+                scale: 1.3;
+            }
+
             .icons {
                 font-size: 50px;
             }

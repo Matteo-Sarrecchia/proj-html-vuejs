@@ -103,6 +103,12 @@ export default {
             width: calc(100% / 3 - 40px);
             min-height: 50px;
             margin: 20px;
+            padding: 10px;
+
+            &:hover {
+                border: 1px solid black;
+                background-color: white;
+            }
 
             .card-img img {
                 width: 100%;
@@ -129,4 +135,5 @@ export default {
             }
         }
     }
-}</style>
+}
+</style>

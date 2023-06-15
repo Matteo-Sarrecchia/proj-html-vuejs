@@ -119,7 +119,7 @@ export default {
 
     .slide {
         padding: 20px;
-        background-color: #fff4f4;
+        background-color:lightgrey;
         border-radius: 5px;
 
         h3 {

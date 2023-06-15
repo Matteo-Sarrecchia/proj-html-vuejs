@@ -68,6 +68,7 @@ export default {
                 </div>
                 <div id="centre">
                     <img src="/images/home-6-hero-poster-final.jpg" alt="">
+                    <img id="img-youtube" src="../../public/images/icon-youtube-play.png" alt="">
                 </div>
                 <div id="right">
 
@@ -127,7 +128,7 @@ header {
                     color: white;
                     text-decoration: none;
 
-                    .shop{
+                    .shop {
                         margin-left: 5px;
                     }
                 }
@@ -207,6 +208,15 @@ header {
 
             #centre {
                 width: 50%;
+                position: relative;
+
+                #img-youtube {
+                    width: 80px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
             }
         }
 

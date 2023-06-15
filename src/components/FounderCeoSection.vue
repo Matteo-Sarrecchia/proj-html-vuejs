@@ -51,6 +51,9 @@ export default {
     flex-direction: column;
     align-items: center;
     background-color: white;
+    background-image: url(../../public/images/sondo-pois-back.png);
+    background-position-y: center;
+    background-size: contain;
 
     h2,
     div {
